@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: center;
+  background-size: cover;
+  height: fill;
 }
 
 .App-logo {
@@ -8,13 +14,38 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color:#222a;
+  position: relative;
+  top: 35%;
+  height: 200px;
   padding: 20px;
   color: white;
 }
 
+.App-footer {
+  position:fixed;
+  top:85%;
+  padding:10px 30px;
+  text-align:left;
+  background-color:#222a;
+  color: #fff;
+}
+
+.App-copyright {
+
+  padding: 0px 15px;
+}
+
+.App-photoby {
+
+  padding: 0px 15px;
+}
+
 .App-title {
+  font-size: 1.5em;
+}
+
+.App-tagline {
   font-size: 1.5em;
 }
 

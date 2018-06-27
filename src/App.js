@@ -8,11 +8,13 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to CreoKorea Inc.</h1>
+          <h1 className="App-tagline">We are making something AWESOME!</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <footer className="App-footer">
+          <p className="App-photoby">Photo by <a href="https://unsplash.com">Unsplash.com</a></p>
+          <p className="App-copyright">Copyright &copy; 2018 Creokorea inc.</p>
+        </footer>
       </div>
     );
   }
