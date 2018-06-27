@@ -14,7 +14,7 @@ class App extends Component {
         <footer className="App-footer">
           <p className="App-photoby">Photo by <a href="https://unsplash.com">Unsplash.com</a></p>
           <p className="App-copyright">Copyright &copy; 2018 Creokorea inc.</p>
-        </footer>
+        </footer>    
       </div>
     );
   }

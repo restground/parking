@@ -14,6 +14,7 @@
 }
 
 .App-header {
+  animation: App-header 1s linear;
   background-color:#222a;
   position: relative;
   top: 35%;
@@ -23,6 +24,7 @@
 }
 
 .App-footer {
+  animation: App-footer 1s linear;
   position:fixed;
   top:85%;
   padding:10px 30px;
@@ -56,4 +58,16 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes App {
+  from { background-color: #000f; } to { background-color: #0000; }
+}
+
+@keyframes App-header {
+  from { opacity: 0; right:100% } to { opacity: 1; right:0%}
+}
+
+@keyframes App-footer {
+  from { opacity: 0; } to { opacity: 1;}
 }
