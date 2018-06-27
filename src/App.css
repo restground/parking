@@ -5,7 +5,7 @@
   background-origin: border-box;
   background-position: center;
   background-size: cover;
-  height: fill;
+  height: stretch;
 }
 
 .App-logo {
